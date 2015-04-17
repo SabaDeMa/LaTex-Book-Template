@@ -17,3 +17,22 @@
 		frame = lines,%
 		breaklines = true,%
 		}%
+		
+		
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}%
+\renewcommand{\footrulewidth}{0pt}
+\fancyhf{}%
+%
+\renewcommand{\sectionmark}[1]{\markright{ #1}}
+\fancyhead[LE]{\sffamily\thesection\rightmark}
+\fancyhead[RO]{\sffamily\chaptername\ {\sffamily\arabic{chapter}}}
+\fancyfoot[LE]{\sffamily\thepage}
+\fancyfoot[RO]{\sffamily\thepage}
+%
+%	Redefine Plan style
+\fancypagestyle{plain}{%
+\fancyhf{}
+\fancyfoot[C]
+{\sffamily\thepage}
+}
