@@ -1,14 +1,14 @@
 %%---------------------------------------
 %% Settings
 %%--------------------------------------
-
+% 1: caption
 \captionsetup{	labelfont = {bf,sf},%
 			textfont = sf,%
 			format = hang,%
 			justification = raggedright
 			}%
 			
-
+% 2: listings
 \lstset{	basicstyle = \ttfamily,%
 		commentstyle = \color{Red},%
 		language = R,%
@@ -18,7 +18,7 @@
 		breaklines = true,%
 		}%
 		
-		
+% 3: fancyhdr		
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}%
 \renewcommand{\footrulewidth}{0pt}
@@ -30,9 +30,35 @@
 \fancyfoot[LE]{\sffamily\thepage}
 \fancyfoot[RO]{\sffamily\thepage}
 %
-%	Redefine Plan style
+	% 3.1: Redefine Plan style
 \fancypagestyle{plain}{%
 \fancyhf{}
 \fancyfoot[C]
 {\sffamily\thepage}
 }
+
+
+% 4: tocloft 
+	% Tocloft 1: chapter numbers fonts
+\renewcommand{\cftchappagefont}{\sffamily\bfseries}
+\renewcommand{\cftsecpagefont}{\sffamily}
+\renewcommand{\cftsubsecpagefont}{\sffamily}
+\renewcommand{\cftfigpagefont}{\sffamily}
+\renewcommand{\cfttabpagefont}{\sffamily}
+	% Tocloft 2: spaces
+\renewcommand{\cftsecleader}{}
+\renewcommand{\cftsecafterpnum}{\cftparfillskip}
+\renewcommand{\cftsubsecleader}{}
+\renewcommand{\cftsubsecafterpnum}{\cftparfillskip}
+\renewcommand{\cftchapleader}{}
+\renewcommand{\cftchapafterpnum}{\cftparfillskip}
+\renewcommand{\cftfigleader}{}
+\renewcommand{\cftfigafterpnum}{\cftparfillskip}
+\renewcommand{\cfttableader}{}
+\renewcommand{\cfttabafterpnum}{\cftparfillskip}
+	% Tocloft 3: fonts
+\renewcommand{\cftchapfont}{\bfseries\sffamily}
+\renewcommand{\cftsubsecfont}{\sffamily}
+\renewcommand{\cftsecfont}{\sffamily}
+\renewcommand{\cftfigfont}{\sffamily}
+\renewcommand{\cfttabfont}{\sffamily}
