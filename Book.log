@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.20)  18 APR 2015 01:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.1.20)  27 APR 2015 19:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -898,19 +898,19 @@ LaTeX Font Info:    ... okay on input line 27.
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: b5paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=418.25368pt
-* \textheight=591.5302pt
-* \oddsidemargin=-0.56833pt
-* \evensidemargin=35.28255pt
-* \topmargin=-0.93083pt
+* h-part:(L,W,R)=(60.09283pt, 350.5364pt, 90.13925pt)
+* v-part:(T,H,B)=(85.35913pt, 497.92105pt, 128.03871pt)
+* \paperwidth=500.7685pt
+* \paperheight=711.3189pt
+* \textwidth=350.5364pt
+* \textheight=497.92105pt
+* \oddsidemargin=-12.17715pt
+* \evensidemargin=17.86926pt
+* \topmargin=-16.97835pt
 * \headheight=12.0pt
 * \headsep=18.06749pt
 * \topskip=10.0pt
@@ -1007,16 +1007,16 @@ LaTeX Info: Redefining \nameref on input line 27.
  (./front/cover.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: b5paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(99.58464pt, 398.3386pt, 99.58464pt)
-* v-part:(T,H,B)=(170.71652pt, 560.5193pt, 113.81102pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=398.3386pt
-* \textheight=560.5193pt
+* h-part:(L,W,R)=(99.58464pt, 301.59921pt, 99.58464pt)
+* v-part:(T,H,B)=(170.71652pt, 426.79135pt, 113.81102pt)
+* \paperwidth=500.7685pt
+* \paperheight=711.3189pt
+* \textwidth=301.59921pt
+* \textheight=426.79135pt
 * \oddsidemargin=27.31465pt
 * \evensidemargin=27.31465pt
 * \topmargin=68.37904pt
@@ -1098,11 +1098,22 @@ Package microtype Info: Loading generic settings for font family
 
 ]) (./chapters/1.tex
 Chapter 1.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 9.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 10.
+
 <pictures/Rplot.pdf, id=86, 505.89pt x 361.35pt>
 File: pictures/Rplot.pdf Graphic file (type pdf)
  <use pictures/Rplot.pdf>
 Package pdftex.def Info: pictures/Rplot.pdf used on input line 21.
-(pdftex.def)             Requested size: 418.25368pt x 298.75702pt.
+(pdftex.def)             Requested size: 350.5364pt x 250.38489pt.
 )
 [1
 
@@ -1124,34 +1135,33 @@ Package logreq Info: Writing requests to 'Book.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18588 strings out of 493109
- 286808 string characters out of 6135004
- 875502 words of memory out of 5000000
- 21689 multiletter control sequences out of 15000+600000
- 20586 words of font info for 72 fonts, out of 8000000 for 9000
+ 18584 strings out of 493109
+ 287094 string characters out of 6135004
+ 874493 words of memory out of 5000000
+ 21682 multiletter control sequences out of 15000+600000
+ 17219 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,43p,841b,1844s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,43p,841b,1830s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></u
 sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/20
-14/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014/t
-exmf-dist/fonts/type1/public/cm-super/sfsx0900.pfb></usr/local/texlive/2014/tex
-mf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2014/texmf
--dist/fonts/type1/public/cm-super/sfti1440.pfb>
-Output written on Book.pdf (14 pages, 204204 bytes).
+cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/cm-super/sfrm2488.pfb></usr/local/texlive/
+2014/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2014
+/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/public/cm-super/sfti1440.pfb></usr/local/texlive/2014/tex
+mf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on Book.pdf (14 pages, 205234 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 160 compressed objects within 2 object streams
+ 192 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
- 19014 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 16454 words of extra memory for PDF output out of 17280 (max. 10000000)
 
